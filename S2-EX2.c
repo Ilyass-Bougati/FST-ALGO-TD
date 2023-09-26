@@ -1,14 +1,3 @@
-/* L'ALGORITHM
-
-  reel A,B,C,W,X,Y
-  lit(A,B,C)
-  X = A + B
-  Y = (A * B) - C
-  W = X + Y
-  ecrit("X = ", X, "Y = ", Y)
-
-*/
-
 #include <stdio.h>
 
 int main()
@@ -17,7 +6,7 @@ int main()
   int A, B, C, W, X, Y;
 
   // lecture des variables
-  printf("Entrer les reels A B et C :");
+  printf("Donnez 3 entiers A,B et C ");
   scanf("%d %d %d", &A, &B, &C);
 
   // tretement des variables
@@ -26,6 +15,8 @@ int main()
   W = X + Y;
 
   // affichage
-  printf("%d %d\n", X, Y);
+  printf("X=%d Y=%d W=%d\n", X, Y, W); 
+  // pour la premiere qs
+  // printf("X=%d Y=%d\n", X, Y); 
 
 }
