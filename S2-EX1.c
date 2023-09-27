@@ -14,10 +14,11 @@
 int main()
 {
   // declaration des variables
-  int A, B, C, W, X, Y;
+  int A, B, C, X, Y;
+  float W;
 
   // lecture des variables
-  printf("Entrer les reels A B et C :");
+  printf("Entrer les reels A B et C : ");
   scanf("%d %d %d", &A, &B, &C);
 
   // tretement des variables
